@@ -4,15 +4,21 @@
 (当我们输入原始图像v的时候，通过p(h|v) 可以得到隐藏层h，而得到隐藏层h之后，通过p(v|h)又能得到可视层v1, 
 通过调整参数，我们就是要使得从隐藏层得到的可视层v1与原来的可视层v一样。这里需要打印出v1的值，即重构生成的手写体图像。)
 
+对于训练数据的提取的方法：  程序开头加上 from tensorflow.examples.tutorials.mnist import input_data
+程序中 可以用  batch_xs, batch_ys = mnist.train.next_batch(100) 得到 训练数据。
+mnist 里面的测试数据可以用mnist.test.images[:20]和 mnist.test.labels[:20] 提取。
+ 
+
+
 
 程序需要完全自己写，可以使用 numpy,或者 pytorch 或者tensorflow,语言要求python。
-
 
 需要对关键步骤进行注释,需要对关键步骤进行注释!
 
 报告需要包含 RBM机制的介绍，试验总结 等内容，语言要求英语。
 
 提交程序代码的时候，请提交一个  jupyter 文件（拓展名为  .ipynb）。
+
 
 
 作业需要提交到elearning 上面，提交作业的时候，请提交一个“14300000001.zip”压缩文件即可。 
