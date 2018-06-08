@@ -16,7 +16,7 @@
   三种误差函数定义如下（Bishop P327）：
 ！[image](http://latex.codecogs.com/gif.latex?E_%7Blinear%7D%3D%5Csum_%7Bn%3D1%7D%5E%7BN%7D%28y_%7Bn%7D%20-t_%7Bn%7D%29%5E%7B2%7D&plus;%5Clambda%20%5Cleft%20%5C%7C%20%5Cmathbf%7Bw%7D%20%5Cright%20%5C%7C%5E%7B2%7D)  
 
-![image](http://latex.codecogs.com/gif.latex?%5Ctfrac%7Ba%7D%7Bb%7D)  
+
 
 ![image](http://latex.codecogs.com/gif.latex?E_%7Blogistic%7D%3D%5Csum_%7Bn%3D1%7D%5E%7BN%7Dlog%281&plus;exp%28-y_%7Bn%7Dt_%7Bn%7D%29%29%20&plus;%20%5Clambda%5Cleft%20%5C%7C%20%5Cmathbf%7Bw%7D%20%5Cright%20%5C%7C%5E%7B2%7D) 
 
