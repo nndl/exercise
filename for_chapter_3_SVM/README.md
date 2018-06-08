@@ -25,7 +25,7 @@
   $$
 
   ​
-  其中$y_{n}=\mathbf{w}^{T}x_{n}+b $,$$t_{n}$$ 为类别标签。
+  其中$y_{n}=\mathbf{w}^{T}x_{n}+b $,$t_{n}$ 为类别标签。
 
 3. 使用多分类SVM 解决三分类问题。数据集为train_multi.txt 及test_multi.txt。（5%）
 
