@@ -20,9 +20,9 @@
   E_{logistic}=\sum_{n=1}^{N}log(1+exp(-y_{n}t_{n})) + \lambda\left \| \mathbf{w} \right \|^{2}
   $$
 
-  $$
+  $
   E_{SVM}=\sum_{n=1}^{N}[1-y_{n}t_{n}]+\lambda \left \| \mathbf{w} \right \|^{2}
-  $$
+  $
 
   ​
   其中\\(y_{n}=\mathbf{w}^{T}x_{n}+b \\),$$t_{n}$$ 为类别标签。
