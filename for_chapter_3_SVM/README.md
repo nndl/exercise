@@ -20,12 +20,12 @@
   E_{logistic}=\sum_{n=1}^{N}log(1+exp(-y_{n}t_{n})) + \lambda\left \| \mathbf{w} \right \|^{2}
   $$
 
-  $
+  $$
   E_{SVM}=\sum_{n=1}^{N}[1-y_{n}t_{n}]+\lambda \left \| \mathbf{w} \right \|^{2}
-  $
+  $$
 
   ​
-  其中$y_{n}=\mathbf{w}^{T}x_{n}+b $$,$$t_{n}$$ 为类别标签。
+  其中$y_{n}=\mathbf{w}^{T}x_{n}+b $,$$t_{n}$$ 为类别标签。
 
 3. 使用多分类SVM 解决三分类问题。数据集为train_multi.txt 及test_multi.txt。（5%）
 
