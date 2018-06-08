@@ -14,18 +14,14 @@
 2. 分别使用线性分类器（squared error）、logistic 回归（cross entropy error）以及SVM（hinge error) 解
   决线性二分类问题，并比较三种模型的效果。数据集为train_linear.txt 及test_linear.txt。
   三种误差函数定义如下（Bishop P327）：
-  $$E_{linear}=\sum_{n=1}^{N}(y_{n} -t_{n})^{2}+\lambda \left \| \mathbf{w} \right \|^{2}$$
+！[image](http://latex.codecogs.com/gif.latex?E_%7Blinear%7D%3D%5Csum_%7Bn%3D1%7D%5E%7BN%7D%28y_%7Bn%7D%20-t_%7Bn%7D%29%5E%7B2%7D&plus;%5Clambda%20%5Cleft%20%5C%7C%20%5Cmathbf%7Bw%7D%20%5Cright%20%5C%7C%5E%7B2%7D)
 ![image](http://latex.codecogs.com/gif.latex?%5Ctfrac%7Ba%7D%7Bb%7D)
-  $$
-  E_{logistic}=\sum_{n=1}^{N}log(1+exp(-y_{n}t_{n})) + \lambda\left \| \mathbf{w} \right \|^{2}
-  $$
+![image](http://latex.codecogs.com/gif.latex?E_%7Blogistic%7D%3D%5Csum_%7Bn%3D1%7D%5E%7BN%7Dlog%281&plus;exp%28-y_%7Bn%7Dt_%7Bn%7D%29%29%20&plus;%20%5Clambda%5Cleft%20%5C%7C%20%5Cmathbf%7Bw%7D%20%5Cright%20%5C%7C%5E%7B2%7D)
+![image](http://latex.codecogs.com/gif.latex?E_%7BSVM%7D%3D%5Csum_%7Bn%3D1%7D%5E%7BN%7D%5B1-y_%7Bn%7Dt_%7Bn%7D%5D&plus;%5Clambda%20%5Cleft%20%5C%7C%20%5Cmathbf%7Bw%7D%20%5Cright%20%5C%7C%5E%7B2%7D)
 
-  $$
-  E_{SVM}=\sum_{n=1}^{N}[1-y_{n}t_{n}]+\lambda \left \| \mathbf{w} \right \|^{2}
-  $$
 
   ​
-  其中$y_{n}=\mathbf{w}^{T}x_{n}+b $,$t_{n}$ 为类别标签。
+  其中![image](http://latex.codecogs.com/gif.latex?y_%7Bn%7D%3D%5Cmathbf%7Bw%7D%5E%7BT%7Dx_%7Bn%7D&plus;b),![image](http://latex.codecogs.com/gif.latex?t_%7Bn%7D) 为类别标签。
 
 3. 使用多分类SVM 解决三分类问题。数据集为train_multi.txt 及test_multi.txt。（5%）
 
