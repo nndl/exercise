@@ -15,7 +15,7 @@
   决线性二分类问题，并比较三种模型的效果。数据集为train_linear.txt 及test_linear.txt。
   三种误差函数定义如下（Bishop P327）：
   $$E_{linear}=\sum_{n=1}^{N}(y_{n} -t_{n})^{2}+\lambda \left \| \mathbf{w} \right \|^{2}$$
-
+![image](http://latex.codecogs.com/gif.latex?%5Ctfrac%7Ba%7D%7Bb%7D)
   $$
   E_{logistic}=\sum_{n=1}^{N}log(1+exp(-y_{n}t_{n})) + \lambda\left \| \mathbf{w} \right \|^{2}
   $$
