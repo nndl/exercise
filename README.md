@@ -4,7 +4,9 @@
 Neural Network and Deep Learning
 
 ### 环境设定
-本次作业需要首先安装 anaconda3 下载地址 https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/ ， 安装的tensorflow 版本大于0.12即可，目前的版本都远大于0.12。 windows 用户，使用tensorflow 只支持python3.5 ，对应的anaconda3-4.2.0。 安装的pytorch 对应的版本是0.4
+本次作业需要首先安装 anaconda3 下载地址 https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/ ， 
+tensorflow 2.0
+pytorch >0.4
 ## Exercise 
 
 ###  warmup
