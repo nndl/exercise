@@ -18,7 +18,7 @@
 
 ## 题目要求：
 
-​	补全full_connection_numpy.ipynb 和 full_connection_tensorflow.ipynb中空缺的部分。
+​	补全本章节中所有*.ipynb文件中提示补全的部分。
 
 
 
